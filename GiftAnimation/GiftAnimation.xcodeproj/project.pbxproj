@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FFE468D122A90EC600F1E48A /* ZBGiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE468D022A90EC600F1E48A /* ZBGiftModel.swift */; };
+		FFE468D322A910D600F1E48A /* ZBGiftDigitLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE468D222A910D600F1E48A /* ZBGiftDigitLabel.swift */; };
 		FFF277D722A8E3F300888A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF277D622A8E3F300888A7D /* AppDelegate.swift */; };
 		FFF277D922A8E3F300888A7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF277D822A8E3F300888A7D /* ViewController.swift */; };
 		FFF277DC22A8E3F300888A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF277DA22A8E3F300888A7D /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FFE468D022A90EC600F1E48A /* ZBGiftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBGiftModel.swift; sourceTree = "<group>"; };
+		FFE468D222A910D600F1E48A /* ZBGiftDigitLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBGiftDigitLabel.swift; sourceTree = "<group>"; };
 		FFF277D322A8E3F300888A7D /* GiftAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF277D622A8E3F300888A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFF277D822A8E3F300888A7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		FFF277E822A90DDC00888A7D /* ZBGiftAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				FFE468D022A90EC600F1E48A /* ZBGiftModel.swift */,
+				FFE468D222A910D600F1E48A /* ZBGiftDigitLabel.swift */,
 			);
 			path = ZBGiftAnimation;
 			sourceTree = "<group>";
@@ -98,6 +104,7 @@
 		FFF277CB22A8E3F300888A7D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZB;
 				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = zzb;
@@ -143,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE468D322A910D600F1E48A /* ZBGiftDigitLabel.swift in Sources */,
+				FFE468D122A90EC600F1E48A /* ZBGiftModel.swift in Sources */,
 				FFF277D922A8E3F300888A7D /* ViewController.swift in Sources */,
 				FFF277D722A8E3F300888A7D /* AppDelegate.swift in Sources */,
 			);

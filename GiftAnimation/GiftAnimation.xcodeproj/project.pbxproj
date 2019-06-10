@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF526DD922AE4A1A0009ED57 /* ZBGiftContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF526DD822AE4A1A0009ED57 /* ZBGiftContainerView.swift */; };
 		FFE468D122A90EC600F1E48A /* ZBGiftModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE468D022A90EC600F1E48A /* ZBGiftModel.swift */; };
 		FFE468D322A910D600F1E48A /* ZBGiftDigitLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE468D222A910D600F1E48A /* ZBGiftDigitLabel.swift */; };
+		FFE468D522A916A300F1E48A /* ZBGiftChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE468D422A916A300F1E48A /* ZBGiftChannelView.swift */; };
+		FFE468D722A916AC00F1E48A /* ZBGiftChannelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE468D622A916AC00F1E48A /* ZBGiftChannelView.xib */; };
 		FFF277D722A8E3F300888A7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF277D622A8E3F300888A7D /* AppDelegate.swift */; };
 		FFF277D922A8E3F300888A7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF277D822A8E3F300888A7D /* ViewController.swift */; };
 		FFF277DC22A8E3F300888A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFF277DA22A8E3F300888A7D /* Main.storyboard */; };
@@ -17,8 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF526DD822AE4A1A0009ED57 /* ZBGiftContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBGiftContainerView.swift; sourceTree = "<group>"; };
 		FFE468D022A90EC600F1E48A /* ZBGiftModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBGiftModel.swift; sourceTree = "<group>"; };
 		FFE468D222A910D600F1E48A /* ZBGiftDigitLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBGiftDigitLabel.swift; sourceTree = "<group>"; };
+		FFE468D422A916A300F1E48A /* ZBGiftChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZBGiftChannelView.swift; sourceTree = "<group>"; };
+		FFE468D622A916AC00F1E48A /* ZBGiftChannelView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZBGiftChannelView.xib; sourceTree = "<group>"; };
 		FFF277D322A8E3F300888A7D /* GiftAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF277D622A8E3F300888A7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFF277D822A8E3F300888A7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +80,9 @@
 			children = (
 				FFE468D022A90EC600F1E48A /* ZBGiftModel.swift */,
 				FFE468D222A910D600F1E48A /* ZBGiftDigitLabel.swift */,
+				FFE468D422A916A300F1E48A /* ZBGiftChannelView.swift */,
+				FFE468D622A916AC00F1E48A /* ZBGiftChannelView.xib */,
+				FF526DD822AE4A1A0009ED57 /* ZBGiftContainerView.swift */,
 			);
 			path = ZBGiftAnimation;
 			sourceTree = "<group>";
@@ -137,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE468D722A916AC00F1E48A /* ZBGiftChannelView.xib in Resources */,
 				FFF277E122A8E3F900888A7D /* LaunchScreen.storyboard in Resources */,
 				FFF277DE22A8E3F900888A7D /* Assets.xcassets in Resources */,
 				FFF277DC22A8E3F300888A7D /* Main.storyboard in Resources */,
@@ -151,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFE468D322A910D600F1E48A /* ZBGiftDigitLabel.swift in Sources */,
+				FFE468D522A916A300F1E48A /* ZBGiftChannelView.swift in Sources */,
 				FFE468D122A90EC600F1E48A /* ZBGiftModel.swift in Sources */,
 				FFF277D922A8E3F300888A7D /* ViewController.swift in Sources */,
+				FF526DD922AE4A1A0009ED57 /* ZBGiftContainerView.swift in Sources */,
 				FFF277D722A8E3F300888A7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
